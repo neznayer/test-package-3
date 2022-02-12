@@ -2,7 +2,7 @@
 import { defineComponent } from "vue";
 
 export default /*#__PURE__*/ defineComponent({
-    name: "TestPackage-3", // vue component name
+    name: "TestPackage3", // vue component name
     data() {
         return {
             counter: 5,
