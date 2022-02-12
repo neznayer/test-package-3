@@ -28,6 +28,7 @@ jobs:
               with:
                   node-version: 14.x
             - run: npm ci
+            - run: npm run build
             - run: npm version prerelease --preid=ci-$GITHUB_RUN_ID --no-git-tag-version
             - run: npm pack
             - name: Upload
